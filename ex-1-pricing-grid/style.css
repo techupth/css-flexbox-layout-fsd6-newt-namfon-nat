@@ -1,1 +1,76 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.viewport {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+  background: linear-gradient(90deg, hsl(0, 100%, 70%), hsl(228, 100%, 68%));
+}
+.card-cat,
+.card-dog,
+.card-fish {
+  color: black;
+  border: 1px solid white;
+  width: 150px;
+  height: 300px;
+  align-items: center;
+}
+
+.card-cat {
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-dog {
+  border-radius: 5px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-fish {
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.button-1 {
+  background-color: yellow;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button-2 {
+  background-color: yellow;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button-3 {
+  background-color: yellow;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+}
