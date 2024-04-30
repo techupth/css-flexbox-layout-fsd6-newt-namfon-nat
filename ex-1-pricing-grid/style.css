@@ -1,4 +1,10 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -12,25 +18,19 @@
   justify-content: center;
   align-items: center;
   background-color: hsla(360, 100%, 100%, 0.3);
-  width: 10rem;
+  width: 12rem;
   padding: 15px;
   margin: 15px;
   border-radius: 5px;
+  height: fit-content;
 }
 
-.card.pet-cat {
-  height: 50%;
-  margin-top: 20vh;
+.card.pet-cat,
+.card.pet-fish {
+  margin-top: 5%;
 }
 
 .card.pet-dog {
-  height: 60%;
-  margin-top: 15vh;
-}
-
-.card.pet-fish {
-  height: 50%;
-  margin-top: 20vh;
 }
 
 .pet-title {
@@ -39,6 +39,7 @@
 
 .pet-desc {
   text-align: center;
+  padding: 15px;
 }
 
 hr {
