@@ -1,1 +1,60 @@
 /* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-weight: bold;
+}
+
+.header {
+  background-color: teal;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.nav {
+  /* flex-basis: 50%; */
+  flex: 1;
+}
+
+.content {
+  flex: 2;
+}
+
+.ads {
+  /* flex-basis: 50%; */
+  flex: 1;
+}
+
+.footer {
+  background-color: khaki;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
