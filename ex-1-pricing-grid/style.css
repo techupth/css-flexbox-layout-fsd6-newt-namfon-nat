@@ -1,1 +1,60 @@
 /* Start coding here */
+.container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0.25turn, rgb(241, 90, 165), rgb(56, 154, 245));
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(360, 100%, 100%, 0.3);
+  width: 10rem;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.card.pet-cat {
+  height: 50%;
+  margin-top: 20vh;
+}
+
+.card.pet-dog {
+  height: 60%;
+  margin-top: 15vh;
+}
+
+.card.pet-fish {
+  height: 50%;
+  margin-top: 20vh;
+}
+
+.pet-title {
+  color: white;
+}
+
+.pet-desc {
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.pet-price {
+  font-size: xx-large;
+  margin: 10px;
+}
+
+button {
+  background-color: yellow;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
