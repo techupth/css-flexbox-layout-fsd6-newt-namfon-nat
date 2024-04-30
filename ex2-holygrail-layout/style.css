@@ -38,14 +38,17 @@
 }
 
 .nav {
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
+  flex: 1;
 }
 
 .content {
+  flex: 2;
 }
 
 .ads {
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
+  flex: 1;
 }
 
 .footer {
