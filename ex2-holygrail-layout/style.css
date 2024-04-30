@@ -1,1 +1,40 @@
 /* Start coding here */
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.green {
+  background-color: #088f8f;
+  text-align: center;
+}
+.mustard {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 2px;
+  flex: 1;
+}
+#nav,
+#ad {
+  flex: 1;
+}
+#content {
+  flex: 2;
+}
+#nav,
+#content,
+#ad {
+  background-color: #ffa700;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lemon {
+  background-color: #ffff9f;
+  text-align: center;
+}
